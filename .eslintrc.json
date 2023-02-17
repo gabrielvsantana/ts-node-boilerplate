@@ -1,0 +1,12 @@
+{
+  "extends": ["standard-with-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "@typescript-eslint/semi": ["error", "always"],
+    "semi": ["error", "always"]
+  }
+}
